@@ -1,0 +1,192 @@
+.head-border {
+    width: 100%;
+    height: 45px;
+    background-image: url(../img/blue.png);
+
+}
+
+a {
+    color: #023;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #f00;
+}
+
+.rb-top {
+    box-shadow: 0 5px 15px #036;
+    z-index: 300;
+    color: #023;
+    text-transform: uppercase;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+
+}
+
+.fw-btn-1 {
+    background-color: #f00!important;
+}
+
+.fw-btn-1:hover {
+    background-color: #002233!important;
+}
+
+.rb-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 42px;
+}
+
+.rb-social ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.rb-social ul li {
+    padding: 0 0 0 15px;
+}
+
+.rb-social a:hover {
+    text-decoration: none;
+}
+
+.rb-footer {
+    background: url(../img/red.png);
+    height: 45px;
+}
+
+.rb-empty {
+    width: 100%;
+    height: 120px;
+}
+
+.btn-primary {
+    background-color: #023;
+    border: none;
+}
+
+.btn {
+    font-family: 'Oswald', sans-serif;
+}
+
+.btn-primary:hover {
+    background-color: #f00;
+}
+
+.wrap-forms textarea {
+    height: 130px;
+    width: 100%;
+}
+
+.contact-form input[type="submit"] {
+    width: 100%;
+    background-color: #023;
+    color: white;
+    border: none;
+    height: 55px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #f00;
+}
+
+.rb-error {
+    flex-basis: 300px;
+    height: 420px;
+}
+
+.rb-error img {
+    height: 100%;
+    width: auto;
+}
+
+.error-404 {
+    flex-basis: 500px;
+    flex-grow: 1;
+}
+
+.details-event-button button {
+    color: white;
+    background: #f00;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.details-event-button button:hover {
+    color: white;
+    background: #023;
+    font-family: 'Oswald', sans-serif;
+}
+
+.btn-secondary:hover {
+    color: white;
+    background-color: #f00;
+    border: none;
+}
+
+.rb-image {
+    width: 30%;
+    padding-right: 15px;
+    float: left;
+}
+
+.entry-header {
+    margin-bottom: 15px;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+article:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+@media (max-width: 991px) {
+    .rb-image {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .rb-social {
+        float: none;
+        width: 100%;
+    }
+
+    .rb-social ul {
+        justify-content: flex-start;
+    }
+
+    .rb-social ul li {
+        padding-left: 11px;
+    }
+
+    .rb-empty {
+        height: 140px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .rb-empty-mobile {
+        height: 115px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        width: 1500px;
+        max-width: 100%;
+    }
+}
